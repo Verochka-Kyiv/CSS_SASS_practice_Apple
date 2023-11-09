@@ -1,0 +1,28 @@
+@screenMap : (
+    desktop: 1200px,
+    laptop:1000px,
+    tablet:800px,
+    mobile:600px
+);
+.page {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #F5F5F7;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.section__content {
+  max-width: 1200px;
+  width: 100%;
+}
+@media all and (width < ) {
+  .section__content {
+    background: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
