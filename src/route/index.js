@@ -21,7 +21,6 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
-
 // router.get Створює нам один ентпоїнт
 
 // ↙️ тут вводимо шлях (PATH) до сторінки
@@ -33,7 +32,7 @@ router.get('/apple', function (req, res) {
     // вказуємо назву папки контейнера, в якій знаходяться наші стилі
     style: 'apple',
     page: {
-      title: "Apple"
+      title: 'Apple',
     },
     header: {
       links: [
@@ -121,7 +120,7 @@ router.get('/apple', function (req, res) {
       },
     },
     card: {
-      title: 'card',
+      title: 'Card',
       descriptions:
         'Get up to 3% Daily Cash back with every purchase.',
       link: {
